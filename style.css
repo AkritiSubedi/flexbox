@@ -1,0 +1,32 @@
+.fcontainer{
+    display: flex;
+    border: 2px solid black;
+    height: 45vh;
+    justify-content: center;
+    /*justify-context: flex-end;*/
+    /*justify-context: flex-start*/
+    /*flex-directions: column-reverse;*/
+    
+    /* align-items: center; */
+    /*align-items: flex-end;*/
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: column wrap*/
+}
+.fitem{
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
+.item1{
+    order: 3;
+    /*flex-grow:3;*/
+    /*flex-shrink:2 */
+    align-self:center;
+}
+.item4{
+    order: 4;
+    /* flex-grow: 2;*/
+    
+}
